@@ -7,15 +7,13 @@ import Row from "../Row";
 
 function HomeScreen() {
   return (
-    <div className="homescreen">
+    <div className="homeScreen">
       <Nav />
-
       <Banner />
-
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
-        isLargeRow={true}
+        isLargeRow
       />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />

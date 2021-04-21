@@ -1,4 +1,3 @@
-// Typically we would store in {process.env.API_KEY}, but
 const API_KEY = "38fb167372ae2d3521d7ab1aecea7518";
 
 const requests = {
